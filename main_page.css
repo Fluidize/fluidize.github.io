@@ -24,8 +24,18 @@
     }
 }
 
+@keyframes glow {
+    from {
+      box-shadow: 0 0 10px -10px #aef4af;
+    }
+    to {
+      box-shadow: 0 0 10px 10px #aef4af;
+    }
+  }
+  
+
 body {
-    font-family: Roboto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
     color: white;
     animation-name: load_fade;
@@ -43,11 +53,11 @@ body {
 }
 
 #title:hover {
-    animation-name: opacity_waver;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+    animation-name: 
 }
 
 .links {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
 }
