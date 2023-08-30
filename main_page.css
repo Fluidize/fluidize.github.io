@@ -35,7 +35,7 @@
   
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: black;
     color: white;
     animation-name: load_fade;
@@ -46,18 +46,21 @@ body {
 
 #title {
     text-align: center;
-    background: linear-gradient(0deg, rgb(57, 51, 145) 0%, rgb(22, 91, 176) 50%, rgba(0, 212, 255, 1) 100%);
+    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(124, 124, 124) 50%, rgb(255, 255, 255) 100%);
     -webkit-background-clip: text;
     color: transparent;
     margin: auto 800px auto;
+    font-size: 50px;
 }
 
-#title:hover {
-    animation-name: 
-}
 
 .links {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-
 }
+
+#discord {
+    background: linear-gradient(45deg, rgba(152,146,255,1) 0%, rgba(101,114,255,1) 35%, rgba(43,60,242,1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
