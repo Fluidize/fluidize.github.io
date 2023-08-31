@@ -75,7 +75,7 @@ sub {
     color: transparent;
 }
 
-#bithub {
+#coding {
     background: linear-gradient(270deg, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 100%);
     -webkit-background-clip: text;
     color:transparent;
