@@ -94,7 +94,7 @@ sub {
 .footer:hover{
     left:0px;
     bottom:0px;
-    height: 10%;
+    height: 9%;
     width:100%;
     transition: 1s;
 }
