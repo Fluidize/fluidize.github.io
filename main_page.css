@@ -65,6 +65,7 @@ body {
 }
 
 #valorant {
+    /* -webkit-text-fill-color: #fd4556; */
     background: linear-gradient(270deg, rgba(253,69,86,1) 0%, rgba(189,57,68,1) 35%, rgba(83,33,43,1) 100%);
     -webkit-background-clip: text;
     color: transparent;
