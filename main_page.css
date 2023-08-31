@@ -44,9 +44,13 @@ body {
     cursor: default;
 }
 
+sub {
+    font-size: 10px;
+}
+
 #title {
     text-align: center;
-    background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgb(124, 124, 124) 50%, rgb(255, 255, 255) 100%);
+    background: white;
     -webkit-background-clip: text;
     color: transparent;
     margin: auto 800px auto;
@@ -69,4 +73,28 @@ body {
     background: linear-gradient(270deg, rgba(253,69,86,1) 0%, rgba(189,57,68,1) 35%, rgba(83,33,43,1) 100%);
     -webkit-background-clip: text;
     color: transparent;
+}
+
+#github {
+    background: linear-gradient(270deg, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 100%);
+    -webkit-background-clip: text;
+    color:transparent;
+}
+
+.footer{
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height: 6%;
+    width:100%;
+    background:#0f0f0f;
+    font-size: 20px;
+}
+
+.footer:hover{
+    left:0px;
+    bottom:0px;
+    height: 10%;
+    width:100%;
+    transition: 1s;
 }
