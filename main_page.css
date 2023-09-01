@@ -49,12 +49,18 @@ sub {
 }
 
 #title {
-    text-align: center;
-    background: white;
-    -webkit-background-clip: text;
-    color: transparent;
-    margin: auto 800px auto;
-    font-size: 50px;
+    margin:
+    background-image: linear-gradient(#1095c1 0 0);
+    background-size: 200% .08em; /* .08em is our fixed height; modify as needed. */
+    background-position: 200% 100%;
+    background-repeat: no-repeat;
+    transition: background-size .3s, background-position .3s .3s;
+}
+
+#title:hover{
+    transition: background-size .3s .3s, background-position .3s;
+    background-size: 200% 100%;
+    background-position: 100% 100%;
 }
 
 
@@ -85,16 +91,20 @@ sub {
     position:fixed;
     left:0px;
     bottom:0px;
-    height: 6%;
+    height: 2%;
     width:100%;
-    background:#0f0f0f;
     font-size: 20px;
+    transition: 0.8s ease-in-out;
+    
+    background: linear-gradient(180deg, rgb(137, 142, 145) 0%, rgba(44,62,80,1) 100%);
+    opacity: 0.1;
+
+    -webkit-box-shadow:0 0 200px rgba(44,62,80,1); 
+    -moz-box-shadow: 0 0 200px rgba(44,62,80,1); 
+    box-shadow:0 0 200px rgba(44,62,80,1);
 }
 
 .footer:hover{
-    left:0px;
-    bottom:0px;
-    height: 9%;
-    width:100%;
-    transition: 1s;
+    height: 20%;
+    opacity: 1;
 }
