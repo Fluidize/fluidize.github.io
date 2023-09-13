@@ -20,6 +20,7 @@ body {
     cursor: default;
 }
 
+/* hover anim*/
 a, a:hover, a:visited, a:active {
     color: inherit;
     text-decoration: none;
@@ -44,6 +45,7 @@ a:hover {
     text-align: center;
 }
 
+/* links */
 #discord {
     background: linear-gradient(45deg, rgba(152,146,255,1) 0%, rgba(101,114,255,1) 35%, rgba(43,60,242,1) 100%);
     text-shadow: rgba(101,114,255,1) 0px 0px 14px;
@@ -64,26 +66,4 @@ a:hover {
     text-shadow: rgba(255,255,255,0.5) 0px 0px 14px;
     -webkit-background-clip: text;
     color:transparent;
-}
-
-.footer{
-    position:fixed;
-    left:0px;
-    bottom:0px;
-    height: 2%;
-    width:100%;
-    font-size: 20px;
-    transition: 0.8s ease-in-out;
-    
-    background: linear-gradient(180deg, rgb(137, 142, 145) 0%, rgba(44,62,80,1) 100%);
-    opacity: 0.1;
-
-    -webkit-box-shadow:0 0 200px rgba(44,62,80,1); 
-    -moz-box-shadow: 0 0 200px rgba(44,62,80,1); 
-    box-shadow:0 0 200px rgba(44,62,80,1);
-}
-
-.footer:hover{
-    height: 20%;
-    opacity: 1;
 }
