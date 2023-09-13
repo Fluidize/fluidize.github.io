@@ -10,30 +10,6 @@
     }
 }
 
-@keyframes opacity_waver {
-    0% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 0.5;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes glow {
-    from {
-      box-shadow: 0 0 10px -10px #aef4af;
-    }
-    to {
-      box-shadow: 0 0 10px 10px #aef4af;
-    }
-  }
-  
-
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: black;
@@ -44,25 +20,25 @@ body {
     cursor: default;
 }
 
-sub {
-    font-size: 10px;
+a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+    border-radius: 5px;
+    }
+a:link {
+  background-image: linear-gradient(#fff,#fff);
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: .4s;
+}
+a:hover {
+    background-size: 100% 100%;
 }
 
 #title {
     margin: auto 45% auto;
-    background-image: linear-gradient(#1095c1 0 0);
-    background-size: 200% .08em;
-    background-position: 200% 100%;
-    background-repeat: no-repeat;
-    transition: background-size .3s, background-position .3s .3s;
-}
 
-#title:hover{
-    transition: background-size .3s .3s, background-position .3s;
-    background-size: 200% 100%;
-    background-position: 100% 100%;
 }
-
 
 .links {
     text-align: center;
@@ -70,6 +46,7 @@ sub {
 
 #discord {
     background: linear-gradient(45deg, rgba(152,146,255,1) 0%, rgba(101,114,255,1) 35%, rgba(43,60,242,1) 100%);
+    text-shadow: rgba(101,114,255,1) 0px 0px 14px;
     -webkit-background-clip: text;
     color: transparent;
 }
@@ -77,12 +54,14 @@ sub {
 #valorant {
     /* -webkit-text-fill-color: #fd4556; */
     background: linear-gradient(270deg, rgba(253,69,86,1) 0%, rgba(189,57,68,1) 35%, rgba(83,33,43,1) 100%);
+    text-shadow: rgba(189,57,68,1) 0px 0px 14px;
     -webkit-background-clip: text;
     color: transparent;
 }
 
 #coding {
     background: linear-gradient(270deg, rgb(0, 0, 0) 0%, rgb(255, 255, 255) 100%);
+    text-shadow: rgba(255,255,255,0.5) 0px 0px 14px;
     -webkit-background-clip: text;
     color:transparent;
 }
