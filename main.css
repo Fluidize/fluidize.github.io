@@ -44,6 +44,7 @@ a:link {
   background-size: 0 100%;
   background-repeat: no-repeat;
   transition: .4s;
+
 }
 a:hover {
     background-size: 100% 100%;
@@ -59,8 +60,11 @@ a:hover {
     animation-duration: 1s;
     animation-delay: 0;
     animation-iteration-count: 1;
+    transition: 0.4;
 }
-
+#title:hover{
+    word-spacing: 10px;
+}
 
 
 
