@@ -52,10 +52,8 @@ a:hover {
 
 
 #title {
-    margin: auto 45% auto;
     text-align: center;
     -webkit-box-reflect: below 0px linear-gradient(transparent, rgba(0, 0, 0, 0.05));
-    text-align: center;
     animation-name: slide-in;
     animation-duration: 1s;
     animation-delay: 0;
