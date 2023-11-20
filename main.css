@@ -97,3 +97,9 @@ a:hover {
     -webkit-background-clip: text;
     color:transparent;
 }
+#epic {
+    background: linear-gradient(170deg, rgba(2,0,36,1) 0%, rgba(61,2,189,1) 35%, rgba(221,177,255,1) 100%);
+    text-shadow: rgba(255,255,255,0.5) 0px 0px 14px;
+    -webkit-background-clip: text;
+    color:transparent;
+}
